@@ -1,0 +1,15 @@
+cover:
+  - platform: mqtt
+    name: "Chicken Coop"
+    state_topic: "stat/chicken_coop"
+    state_open: "open"
+    state_opening: "opening"
+    state_closed: "closed"
+    state_closing: "closing"
+    command_topic: "cmnd/chicken_coop"
+    payload_open: "{action: 'OPEN', max: 180000}"
+    payload_close: "{action: 'CLOSE', max: 180000}"
+    payload_stop: "{action: 'STOP'}"
+    availability_topic: "tele/chicken_coop/LWT"
+    payload_available: "online"
+    payload_not_available: "offline"
