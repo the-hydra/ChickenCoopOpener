@@ -7,3 +7,5 @@ Home Assistant Chicken Coop Opener. Designed to run:
 - 12v DC Geared Motor with Encoder
 - Reed Switches
 - Home Assistant with MQTT 
+
+https://youtu.be/txGxSdKSX40
