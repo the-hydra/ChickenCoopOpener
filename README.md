@@ -1,4 +1,4 @@
-# chicken-coop-opener
+# Chicken Coop Opener
 Home Assistant Chicken Coop Opener. Designed to run:
 
 - Wemos D1 Mini - ESP8266
